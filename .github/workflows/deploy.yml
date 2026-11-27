@@ -28,4 +28,4 @@ jobs:
         uses: docker/build-push-action@v6
         with:
           push: true
-          tags: ghcr.io/RupakChandarH/fulldevops:latest
+          tags: ghcr.io/rupakchandarh/fulldevops:latest
