@@ -6,7 +6,7 @@ app.get("/", (req, res) => {
 });
 
 app.get("/health", (req, res) => {
-    res.status(200).json({ status: "UP", version: "1.0.0" });
+    res.status(200).json({ status: "UP", version: "2.0.0" });
 });
 
 if (require.main === module) {
